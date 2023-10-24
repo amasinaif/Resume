@@ -1,0 +1,290 @@
+
+body {
+  height: 3000px;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  background-color: #F2EDEB;
+   z-index: 9999999;
+
+}
+
+.logo{
+  margin: 20px;
+  width: 4%;
+}
+.first {
+    display: flex;
+    background: #A5B5CA;
+    height: 600px;
+}
+
+.laptop {
+    margin: auto;
+    padding: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #F2EDEB;
+    width: 30%;
+  }
+
+
+
+.txt1 {
+
+    margin: auto;
+    color: white;
+
+}
+
+.txt2 {
+    margin: auto;
+padding: 50px;
+font-size: larger;
+}
+
+.second {
+    background: #F2EDEB;
+    height: 500px;
+    display: flex;
+
+}
+
+
+.forth {
+  height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #A5B5CA;
+    align-items: center;
+    justify-content: center;
+}
+.third{
+  margin: 0;
+}
+
+.card hr{
+    color: #4d7ebe;
+    width: 100%;
+}
+.card{
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    border: none;
+    background-color: #F2EDEB;
+}
+.card p{
+  text-align: left;
+}
+.card a{
+  text-decoration: none;
+}
+.card a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+.card:hover{
+transform: translateY(-0.5%);
+box-shadow: 0 4rem 8rem rgb(77, 126, 190, 0.5);
+}
+
+:root {
+    --primary:#4d7ebe ;
+    --primary-gradient: linear-gradient(45deg,#F2EDEB 0%, #A5B5CA 100%);
+  }
+  .section-header {
+    text-align: center;
+  }
+   
+  .bg-gradient_solid {
+    background: var(--primary-gradient);
+    color: #fff;
+    padding: 48px 0;
+  }
+  .steps {
+    position: relative;
+    margin-top: 32px;
+  }
+  .steps::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: white;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+  
+  .steps .content p {
+    color: #676767;
+    font-size: 16px;
+  }
+  
+  .steps .content h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+  }
+  
+  .steps-container {
+    position: relative;
+    background-color: inherit;
+    width: calc(50% + 32px);
+  }
+  
+  .steps-container .content {
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+  }
+  
+  .steps .steps-container:nth-child(even) {
+    left: calc(50% - 32px);
+    flex-direction: row-reverse;
+  }
+  
+  .steps-container {
+    display: flex;
+  }
+  
+  .steps .steps-container .date {
+    font-weight: 900;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 777;
+  }
+  
+  .step-line {
+    width: 40px;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 31px;
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+ 
+  .fifth {
+    display: flex;
+    background: #F2EDEB;
+    height: 100px;
+    align-items: center;
+justify-content: center;
+  }
+  .fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-whatsapp {
+  background: #2c4762;
+  color: white;
+}
+
+
+  @media (min-width: 992px) {
+    body{
+      margin: 80px;
+      background-color: #ffffff;
+    }
+    .forth{
+      height: 600px;
+    display: flex;
+    flex-direction: column;
+    }
+      }
+
+      @media (min-width: 789px) {
+        body{
+          height: 3000px;
+
+        }
+        .forth{
+          height: 600px;
+        display: flex;
+        flex-direction: column;
+        }
+          }
+    
+
+  @media (max-width: 768px) {
+   
+    .steps::after {
+      left: 32px;
+    }
+    .steps-container {
+      left: 0;
+      flex-direction: row-reverse;
+      width: auto;
+      margin-bottom: 16px;
+    }
+    .steps .steps-container:nth-child(even) {
+      left: 0;
+    }
+    .first{
+      padding-top: 100px;
+      display: block;
+    }
+ .laptop{
+  display: block;
+  margin: auto auto;
+  width: 40%;
+
+}
+.txt1{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+  }
+  @media (max-width: 576px) {
+    body{
+      height: 4000px;
+
+    }
+    .forth{
+      height: 1500px;
+  display: flex;
+  flex-direction: row;
+    }
+  }
+  
+  
