@@ -12,13 +12,16 @@ header {
   align-items: center;
   background-color: #F2EDEB;
    z-index: 9999999;
-
+padding-right: 30px;
 }
 
 .logo{
   margin: 20px;
-  width: 4%;
+  width: 10%;
+  padding-left: 30px;
+
 }
+
 .first {
     display: flex;
     background: #A5B5CA;
@@ -34,8 +37,7 @@ header {
     width: 30%;
   }
 
-
-
+  
 .txt1 {
 
     margin: auto;
@@ -261,12 +263,20 @@ justify-content: center;
       padding-top: 100px;
       display: block;
     }
+
  .laptop{
   display: block;
   margin: auto auto;
   width: 40%;
+ }
 
-}
+   .logo{
+    width: 80px;
+    margin: 20px;
+    padding-left: 30px;
+  
+  }
+
 .txt1{
   margin: 20px;
   padding: 20px;
@@ -278,8 +288,8 @@ justify-content: center;
   @media (max-width: 576px) {
     body{
       height: 4000px;
-
     }
+
     .forth{
       height: 1500px;
   display: flex;
