@@ -227,6 +227,12 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     }
+    .logo{
+      width: 50px;
+      margin: 20px;
+      padding-left: 30px;
+    
+    }
       }
 
       @media (min-width: 789px) {
