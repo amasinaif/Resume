@@ -1,3 +1,4 @@
+ /* Amasi Naif Alhazmi 2110677 */
 
 body {
   height: 3000px;
@@ -30,7 +31,6 @@ padding-right: 30px;
 
 .laptop {
     margin: auto;
-    padding: auto;
     border-radius: 50%;
     border-style: solid;
     border-color: #F2EDEB;
