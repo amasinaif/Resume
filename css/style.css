@@ -37,7 +37,7 @@ padding-right: 30px;
     width: 30%;
   }
 
-  
+
 .txt1 {
 
     margin: auto;
@@ -221,10 +221,7 @@ justify-content: center;
 
 
   @media (min-width: 992px) {
-    body{
-      margin: 80px;
-      background-color: #ffffff;
-    }
+   
     .forth{
       height: 600px;
     display: flex;
